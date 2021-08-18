@@ -64,8 +64,6 @@ class DataAPI {
 
                 Log.d(TAG_FROM_DATA_API, "Получен ответ: ${response.body()}")
 
-                Log.d(TAG_FROM_DATA_API, "Получен пользователь: ${usersList?.get(1)?.html_url}")
-
                 Log.d(TAG_FROM_DATA_API, "Размер списка: ${usersList.size}")
 
                 Log.d(TAG_FROM_DATA_API, "Получен список: ${usersList}")

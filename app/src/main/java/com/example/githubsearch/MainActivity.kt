@@ -52,7 +52,7 @@ class MainActivity: AppCompatActivity() {
             if (it.isNotEmpty()){
                 adapterForRecyclerView.setList(it)
             } else{
-
+                adapterForRecyclerView.setList(listOf(User("Раз", "Два", "Три", "Четыре")))
             }
         })
     }
